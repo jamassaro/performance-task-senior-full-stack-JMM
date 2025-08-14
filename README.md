@@ -18,6 +18,12 @@ cd mock-data-endpoint
 npm install
 npm start
 ```
+**Run Tests:**
+```bash
+cd mock-data-endpoint
+npm install
+npm test
+```
 
 **Terminal 2: Start the Insights Widget Endpoint**
 
@@ -25,3 +31,10 @@ npm start
 cd student-insights-widget-v2
 npm install
 npm start
+
+**Run Tests:**
+```bash
+cd student-insights-widget-v2
+npm install --legacy-peer-deps
+npm test -- --watchAll=false
+```
