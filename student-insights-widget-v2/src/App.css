@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.widget-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 400px;
+  background-color: white;
+  text-align: left;
+}
+
+.widget-card h2 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.widget-content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.notes-section {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.notes-section h3 {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.notes-section p {
+  font-size: 1em;
+  color: #666;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.error {
+  color: #D8000C;
+  background-color: #FFD2D2;
+}
+
+.loading {
+  color: #555;
+}
