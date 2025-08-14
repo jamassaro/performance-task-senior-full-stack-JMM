@@ -4,7 +4,8 @@
   "description": "Mock data server for Innovare performance task",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,9 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "express-validator": "^7.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
   }
 }
