@@ -55,11 +55,17 @@ main {
   border-radius: 4px;
 }
 
-.error {
-  color: #D8000C;
-  background-color: #FFD2D2;
+
+.loading, .empty-data {
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  margin-top: 20px;
 }
 
-.loading {
-  color: #555;
+h3 {
+  margin-top: 0;
 }

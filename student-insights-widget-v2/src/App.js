@@ -1,5 +1,6 @@
 import './App.css';
-import StudentInsightsWidget from './StudentInsightsWidget';
+import DashboardData from './components/dashboard-data';
+
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <h1>Innovare 2.0 Dashboard</h1>
       </header>
       <main>
-        <StudentInsightsWidget />
+        <DashboardData />
       </main>
     </div>
   );
